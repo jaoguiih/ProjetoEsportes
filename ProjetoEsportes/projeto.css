@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    background-color: white;
+    background-image: url('Images/sobreposicao.png');
+    background-size: cover;
+}
+
+header{
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+div.logo img{
+    width: 100px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+nav{
+    width: 50%;
+    padding-right: 4rem;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5rem;
+
+}
+
+nav a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: purple;
+}
+
+div.lupa{
+    display: flex;
+    align-items: center;
+    border: 4px;
+    border-radius: 20px;
+    padding: 4px 12px;
+
+    background-color: rgb(123, 14, 145);
+
+}
+
+div.lupa img{
+    height: 2vw;
+}
+
+a.a{
+    color: white;
+}
+
+main{
+    background-color: yellowgreen;
+    display: flex;
+}
+
+main div.menu2{
+    background-color: darkgreen;
+}
+
+main div.texto{
+    background-color: darkred;
+}
